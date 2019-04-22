@@ -1,0 +1,35 @@
+Package: AgingMouseBrainCCInx
+Type: Package
+Title: Cell-cell interaction prediction from single-cell transcriptomic profiling of the aging mouse brain
+Version: 0.1.0
+Author: Methodios Ximerakis, 
+  Scott L. Lipnick,
+  Brendan T. Innes,
+  Sean K. Simmons, 
+  Xian Adiconis,
+  Danielle Dionne,
+  Brittany A. Mayweather,
+  Lan Nguyen,
+  Zachary Niziolek,
+  Ceren Ozek,
+  Vincent L. Butty,
+  Ruth Isserlin,
+  Sean M. Buchanan,
+  Stuart S. Levine,
+  Aviv Regev,
+  Gary D Bader,
+  Joshua Z. Levin,
+  Lee L. Rubin
+Maintainer: Brendan T. Innes <brendan.innes@mail.utoronto.ca>
+Description: Data package for the cell-cell interaction predictions from the 
+    paper "single-cell transcriptomic profiling of the aging mouse brain". The 
+    package contains an RData list object with both the edge list and node 
+    metadata of predicted cell-cell interactions between cell types in the mouse
+    brain, and their changes with aging.  The predictions were generated using 
+    CCInx (baderlab.github.io/CCInx), and can be viewed using the function 
+    ?ViewAgingMouseBrainCCInx.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: CCInx (>= 0.3.0)
+Remotes: Baderlab/CCInx
