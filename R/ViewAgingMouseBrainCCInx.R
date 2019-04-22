@@ -15,7 +15,6 @@
 #' @export
 
 ViewAgingMouseBrainCCInx <- function() {
-  temp <- load(system.file("data/OX_YX_CCInx_forPub.RData",
-                           package="AgingMouseBrainCCInx"))
-  CCInx::ViewCCInx(get(temp))
+  utils::data("OxYxCCInx",package="AgingMouseBrainCCInx")
+  CCInx::ViewCCInx(OxYxCCInx)
 }

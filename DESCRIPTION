@@ -30,7 +30,7 @@ Description: Data package for the cell-cell interaction predictions from the
     ?ViewAgingMouseBrainCCInx.
 License: MIT + file LICENSE
 Encoding: UTF-8
-LazyData: true
+LazyData: false
 Depends: CCInx (>= 0.3.0)
 Remotes: Baderlab/CCInx
 RoxygenNote: 6.1.1
