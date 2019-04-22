@@ -1,4 +1,3 @@
-# AgingMouseBrainCCInx
 # Single-cell transcriptomic profiling of the aging mouse brain
 Methodios Ximerakis, Scott L. Lipnick, Brendan T. Innes, Sean K. Simmons, Xian
 Adiconis, Danielle Dionne, Brittany A. Mayweather, Lan Nguyen, Zachary Niziolek,
