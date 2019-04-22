@@ -15,10 +15,7 @@
 #' @export
 
 ViewAgingMouseBrainCCInx <- function() {
-  if (exists("OxYxCCInx")) {
-    ViewCCInx(OxYxCCInx)
-  } else {
-    load(system.file("data/OX_YX_CCInx_forPub.RData",package="AgingMouseBrainCCInx"))
-    ViewCCInx(OxYxCCInx)
-  }
+  temp <- load(system.file("data/OX_YX_CCInx_forPub.RData",
+                           package="AgingMouseBrainCCInx"))
+  CCInx::ViewCCInx(get(temp))
 }
