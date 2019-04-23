@@ -1,10 +1,13 @@
-# Single-cell transcriptomic profiling of the aging mouse brain
+# Predicted cell-cell interactions of the aging mouse brain
+From the following paper:
+
+## Single-cell transcriptomic profiling of the aging mouse brain
 Methodios Ximerakis, Scott L. Lipnick, Brendan T. Innes, Sean K. Simmons, Xian
 Adiconis, Danielle Dionne, Brittany A. Mayweather, Lan Nguyen, Zachary Niziolek,
 Ceren Ozek, Vincent L. Butty, Ruth Isserlin, Sean M. Buchanan, Stuart S. Levine, 
 Aviv Regev, Gary D. Bader, Joshua Z. Levin, and Lee L. Rubin.
   
-## Abstract
+### Abstract
 The mammalian brain is complex, with multiple cell types performing a variety of diverse
 functions, but exactly how the brain is affected with aging remains largely unknown. Here
 we performed a single-cell transcriptomic analysis of young and old mouse brains. We

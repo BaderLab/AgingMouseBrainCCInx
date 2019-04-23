@@ -3,18 +3,27 @@
 #' A wrapper function to view the \code{AgingMouseBrainCCInx} dataset in the
 #' \code{CCInx} Shiny app.
 #'
-#' @return The function causes the scClustViz Shiny GUI app to open in a
-#'   seperate window.
+#' @param ... Named options that should be passed to the
+#'   \code{\link[shiny]{runApp}} call (these can be any of the following:
+#'   "port", "launch.browser", "host", "quiet", "display.mode" and "test.mode").
+#'
+#' @return The function causes the CCInx Shiny GUI app to open in a seperate
+#'   window. Calling this function also loads the underlying data object
+#'   \code{OxYxCCInx} into the global environment. Stop the Shiny function by
+#'   hitting ESC in the R console, and the data object will be loaded in your R
+#'   session.
 #'
 #' @examples
 #'   ViewAgingMouseBrainCCInx()
 #'
 #' @seealso \url{https://baderlab.github.io/CCInx} for information on
-#'   \code{scClustViz}.
+#'   \code{CCInx}. This package uses \code{\link[grDevices]{cairo}} for PDF and
+#'   EPS graphics devices.  See \code{\link{capabilities}} to ensure that
+#'   \code{\link[grDevices]{cairo}} is supported on your system.
 #'
 #' @export
 
-ViewAgingMouseBrainCCInx <- function() {
+ViewAgingMouseBrainCCInx <- function(...) {
   utils::data("OxYxCCInx",package="AgingMouseBrainCCInx")
-  CCInx::ViewCCInx(OxYxCCInx)
+  ViewCCInx(OxYxCCInx,...)
 }
