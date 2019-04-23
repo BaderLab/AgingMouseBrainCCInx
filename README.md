@@ -1,7 +1,4 @@
-# Predicted cell-cell interactions of the aging mouse brain
-From the following paper:
-
-## Single-cell transcriptomic profiling of the aging mouse brain
+# Single-cell transcriptomic profiling of the aging mouse brain
 Methodios Ximerakis, Scott L. Lipnick, Brendan T. Innes, Sean K. Simmons, Xian
 Adiconis, Danielle Dionne, Brittany A. Mayweather, Lan Nguyen, Zachary Niziolek,
 Ceren Ozek, Vincent L. Butty, Ruth Isserlin, Sean M. Buchanan, Stuart S. Levine, 
@@ -22,6 +19,7 @@ believe that this large-scale dataset, which is publicly accessible online ([agi
 will facilitate additional discoveries directed towards understanding and modifying
 the aging process.
 
+# R package: Predicted cell-cell interactions of the aging mouse brain
 ## Usage
 This is an R package used to explore the cell-cell interaction predictions from the 
 paper. The package contains an RData list object with both the edge list and node 
