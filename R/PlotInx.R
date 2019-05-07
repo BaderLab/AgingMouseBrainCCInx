@@ -176,7 +176,8 @@ DoPlotInx <- function(INX,ySpacing,plot.asp=NA) {
     lines(x=INX$nodes[unlist(INX$edges[X,c("nodeA","nodeB")]),"x"],
           y=INX$nodes[unlist(INX$edges[X,c("nodeA","nodeB")]),"y"],
           col=scales::alpha(colourScheme,
-                            seq(.3,.8,length.out=100))[INX$edges[X,"col"]],
+                            c(seq(.9,.3,length.out=50),
+                              seq(.9,.8,length.out=50)))[INX$edges[X,"col"]],
           lwd=INX$edges[X,"lwd"])
   )
   points(x=INX$nodes$x,y=INX$nodes$y,
