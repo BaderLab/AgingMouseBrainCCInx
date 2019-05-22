@@ -13,6 +13,7 @@ ViewCCInx <- function(INX,...) {
   if (!all(names(INX) %in% c("nodes","edges"))) {
     stop("INX must be the output of the function CCInx::BuildCCInx()")
   }
+  require(shiny)
 
   ui <- pageWithSidebar(
     headerPanel("Predicted cell-cell interactions of the aging mouse brain",
@@ -86,7 +87,7 @@ ViewCCInx <- function(INX,...) {
       ),
       hr(),
       selectInput("WhichFilter","Filter network by:",
-                  choices=list("All"="All",
+                  choices=list("All (could be slow!)"="All",
                                "Differential expression significance"="Stat",
                                "Differential expression magnitude"="Magn",
                                "Top weighted edges"="Top",
