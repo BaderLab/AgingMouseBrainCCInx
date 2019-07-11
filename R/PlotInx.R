@@ -101,7 +101,7 @@ FilterInx_genenames <- function(INX,genenames) {
 #'
 #'
 
-DoPlotInx <- function(INX,ySpacing,plot.asp=NA) {
+DoPlotInx <- function(INX,ySpacing) {
   yoCol <- colorRampPalette(rgb(red=c(87,220,247),green=c(87,220,78),blue=c(249,220,214),
                                 names=c("old","none","young"),maxColorValue=255),
                             bias=1,interpolate="linear")
@@ -170,7 +170,7 @@ DoPlotInx <- function(INX,ySpacing,plot.asp=NA) {
 
   par(mar=c(3,3,3,1),mgp=2:0)
   plot(x=NULL,y=NULL,xlim=c(0,6.5),ylim=range(INX$nodes$y),
-       xaxs="i",xaxt="n",yaxs="i",yaxt="n",bty="n",asp=plot.asp,
+       xaxs="i",xaxt="n",yaxs="i",yaxt="n",bty="n",
        xlab=NA,ylab=NA)
   temp_junk <- sapply(rownames(INX$edges),function(X)
     lines(x=INX$nodes[unlist(INX$edges[X,c("nodeA","nodeB")]),"x"],
