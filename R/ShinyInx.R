@@ -16,7 +16,7 @@ ViewCCInx <- function(INX,...) {
   require(shiny)
 
   ui <- pageWithSidebar(
-    headerPanel("Predicted cell-cell interactions of the aging mouse brain",
+    headerPanel("Aging-related changes in predicted cell-cell interactions of the mouse brain",
                 windowTitle="CCInx Viewer"),
     sidebarPanel(
       includeMarkdown(system.file("shinyMarkdown/header.md",package="AgingMouseBrainCCInx")),
@@ -110,7 +110,9 @@ ViewCCInx <- function(INX,...) {
                                         TIFF="tiff",
                                         PNG="png"))
         )
-      )
+      ),
+      hr(),
+      includeMarkdown(system.file("shinyMarkdown/footer.md",package="AgingMouseBrainCCInx"))
       #### TESTING ####
       # textOutput("TEST")
     ),
