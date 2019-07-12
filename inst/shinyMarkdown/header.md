@@ -1,8 +1,9 @@
 Aging-related changes in intercellular communication from the paper 
-**Single-cell transcriptomic profiling of the aging mouse brain**
-by Ximerakis *et al*, 2019.
+[**Single-cell transcriptomic profiling of the aging mouse brain**
+by Ximerakis, Lipnick, *et al.* Nat Neurosci, 2019.](https://doi.org/10.1101/440032)
 
-Predictions and interactive viewer powered by [CCInx](https://baderlab.github.io/CCInx/).
+Predictions and interactive viewer powered by [CCInx](https://baderlab.github.io/CCInx/).  
+[Back to Aging Mouse Brain data portal](http://shiny.baderlab.org/AgingMouseBrain)
 
 Nodes represent ligands or receptors expressed in the denoted cell 
 type, and edges represent protein-protein interactions between them. Node color
