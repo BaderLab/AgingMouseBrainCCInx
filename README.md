@@ -35,5 +35,5 @@ It takes a while for this command to run, since data files are larger than your 
 Then the data can be viewed in the [*CCInx*](https://baderlab.github.io/CCInx) Shiny app by running:
 ```{r}
 library(AgingMouseBrainCCInx)
-ViewAgingMouseBrainCCInx()
+viewAgingMouseBrainCCInx()
 ```
