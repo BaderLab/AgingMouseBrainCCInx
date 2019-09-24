@@ -1,6 +1,6 @@
 Aging-related changes in intercellular communication from the paper 
 [**Single-cell transcriptomic profiling of the aging mouse brain**
-by Ximerakis, Lipnick, *et al.* Nat Neurosci, 2019.](https://doi.org/10.1101/440032)
+by Ximerakis *et al.* Nat Neurosci, 2019.](https://doi.org/10.1038/s41593-019-0491-3)
 
 Predictions and interactive viewer powered by [CCInx](https://baderlab.github.io/CCInx/).  
 [Back to Aging Mouse Brain data portal](http://shiny.baderlab.org/AgingMouseBrain)

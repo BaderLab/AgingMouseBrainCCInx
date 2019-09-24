@@ -2,22 +2,11 @@
 Methodios Ximerakis, Scott L. Lipnick, Brendan T. Innes, Sean K. Simmons, Xian
 Adiconis, Danielle Dionne, Brittany A. Mayweather, Lan Nguyen, Zachary Niziolek,
 Ceren Ozek, Vincent L. Butty, Ruth Isserlin, Sean M. Buchanan, Stuart S. Levine, 
-Aviv Regev, Gary D. Bader, Joshua Z. Levin, and Lee L. Rubin.
-  
+Aviv Regev, Gary D. Bader, Joshua Z. Levin, and Lee L. Rubin.  
+*Nature Neuroscience* (2019). DOI:[10.1038/s41593-019-0491-3](https://doi.org/10.1038/s41593-019-0491-3)
+
 ### Abstract
-The mammalian brain is complex, with multiple cell types performing a variety of diverse
-functions, but exactly how the brain is affected with aging remains largely unknown. Here
-we performed a single-cell transcriptomic analysis of young and old mouse brains. We
-provide a comprehensive dataset of aging-related genes, pathways and ligand-receptor
-interactions in nearly all brain cell types. Our analysis identified gene signatures that vary
-in a coordinated manner across cell types and gene sets that are regulated in a cell type
-specific manner, even at times in opposite directions. Thus, our data reveal that aging,
-rather than inducing a universal program, drives a distinct transcriptional course in each
-cell population. These data provide an important resource for the aging community and
-highlight key molecular processes, including ribosome biogenesis, underlying aging. We
-believe that this large-scale dataset, which is publicly accessible online ([aging-mouse-brain](https://portals.broadinstitute.org/single_cell/study/aging-mouse-brain)), 
-will facilitate additional discoveries directed towards understanding and modifying
-the aging process.
+The mammalian brain is complex, with multiple cell types performing a variety of diverse functions, but exactly how each cell type is affected in aging remains largely unknown. Here we performed a single-cell transcriptomic analysis of young and old mouse brains. We provide comprehensive datasets of aging-related genes, pathways and ligand–receptor interactions in nearly all brain cell types. Our analysis identified gene signatures that vary in a coordinated manner across cell types and gene sets that are regulated in a cell-type specific manner, even at times in opposite directions. These data reveal that aging, rather than inducing a universal program, drives a distinct transcriptional course in each cell population, and they highlight key molecular processes, including ribosome biogenesis, underlying brain aging. Overall, these large-scale datasets ([accessible online](https://portals.broadinstitute.org/single_cell/study/aging-mouse-brain)) provide a resource for the neuroscience community that will facilitate additional discoveries directed towards understanding and modifying the aging process.
 
 # R package: Predicted cell-cell interactions of the aging mouse brain
 ## Usage
